@@ -1,0 +1,13 @@
+{
+    "name": "test stale",
+    "description": "stale PR and issues workflow.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
