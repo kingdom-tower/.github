@@ -1,4 +1,3 @@
----
 issuer: https://token.actions.githubusercontent.com
 subject_pattern: repo:kingdom-tower/.github:ref:refs/heads/main
 claim_pattern:
@@ -7,7 +6,7 @@ claim_pattern:
 # to be able to write issues and see the repos if is private
 permissions:
   issues: write
-  pull-requests: write
+  pull_requests: write
   contents: read
 
 repositories: [] # Act over all of the repos in the org.
