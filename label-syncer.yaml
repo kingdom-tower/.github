@@ -7,11 +7,11 @@ general:
   - name: "featurezz"
     color: 7F3150
     description: "New feature request"
-ignoreRepos:
-  - repoName: "testing-repo"
-repos:
-  - repoName: "playground-2"
-    labels:
-      name: "testing-label"
-      color: 7F3150
-      description: "Enhancements to the repo"
+ignoreRepos: []
+# - repoName: "testing-repo"
+repos: []
+#  - repoName: "playground-2"
+#     labels:
+#       name: "testing-label"
+#       color: 7F3150
+#       description: "Enhancements to the repo"
