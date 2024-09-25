@@ -1,0 +1,16 @@
+org: "kingdom-tower"
+general:
+  - name: "bugzzz"
+    color: 7F3150
+    description: "Something isn't working"
+  - name: "featurezz"
+    color: 7F3150
+    description: "New feature request"
+ignoreRepos:
+  - repoName: "testing-repo"
+repos:
+  - repoName: "playground-2"
+    labels:
+      name: "testing-label"
+      color: 7F3150
+      description: "Enhancements to the repo"
