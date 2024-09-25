@@ -2,10 +2,12 @@
 issuer: https://token.actions.githubusercontent.com
 subject_pattern: repo:kingdom-tower/.github:ref:refs/heads/main
 claim_pattern:
-  workflow_ref: kingdom-tower/.github/\.github/workflows/sync-labels.yaml@refs/heads/main
+  workflow_ref: kingdom-tower/\.github/\.github/workflows/sync-labels\.yaml@refs/heads/main
 
 # to be able to write issues and see the repos if is private
 permissions:
   issues: write
   pull-requests: write
   contents: read
+
+repositories: [] # Act over all of the repos in the org.
