@@ -1,6 +1,5 @@
 ---
 org: "kingdom-tower"
-policyRepo: ".github"
 general:
   - name: "bugzzz"
     color: 7F3150

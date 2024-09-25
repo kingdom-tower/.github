@@ -7,4 +7,5 @@ claim_pattern:
 # to be able to write issues and see the repos if is private
 permissions:
   issues: write
-  contents: write
+  pull-requests: write
+  contents: read
