@@ -25,3 +25,4 @@ jobs:
         uses: docker://ghcr.io/cpanato/github-label-syncer:0.6.0@sha256:ac173809e6b8b37a1b48ced1b45a1b2ab00cac8be94db33ca1eb290a46044134
         env:
           GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token }}
+          LABEL_SYNCER_CONFIG_FILE: ./label-syncer.yaml
