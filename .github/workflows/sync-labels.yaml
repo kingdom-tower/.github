@@ -18,5 +18,5 @@ jobs:
       - name: run sync-labels
         uses: docker://ghcr.io/cpanato/github-label-syncer:0.2.0
         env:
-          POLICY_NAME: "sync-labels"
+          POLICY_NAME: "sync-labels-2"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
