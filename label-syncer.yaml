@@ -9,9 +9,15 @@ general:
     description: "New feature request"
 ignoreRepos: []
 # - repoName: "testing-repo"
-repos: []
-#  - repoName: "playground-2"
-#     labels:
-#       name: "testing-label"
-#       color: 7F3150
-#       description: "Enhancements to the repo"
+repos:
+  - repoName: "playground-2"
+    labels:
+      - name: "testing-label"
+        color: 7F3150
+        description: "Enhancements to the repo"
+      - name: "testing-label2"
+        color: 7F3150
+        description: "Enhancements to the repo"
+      - name: "testing-label3"
+        color: 7F3150
+        description: "Enhancements to the repo"
