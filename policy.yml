@@ -9,7 +9,7 @@ policy:
 
 # the list of rules
 approval_rules:
-  - name: github workflows approval (global)
+  - name: github workflows approval
     requires:
       count: 1
       teams:
