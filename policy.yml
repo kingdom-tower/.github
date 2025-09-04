@@ -18,3 +18,7 @@ approval_rules:
       changed_files:
         paths:
           - "^.github/.*$"
+    options:
+      request_review:
+        enabled: true
+        mode: teams
