@@ -1,0 +1,20 @@
+# the high level policy
+policy:
+  approval:
+    - github workflows approval
+  disapproval:
+    requires:
+      organizations:
+        - "kingdom-tower"
+
+# the list of rules
+approval_rules:
+  - name: github workflows approval (global)
+    requires:
+      count: 1
+      teams:
+        - "kingdom-tower/x-wing"
+    if:
+      changed_files:
+        paths:
+          - "^.github/.*$"
